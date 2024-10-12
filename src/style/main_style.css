@@ -1,0 +1,226 @@
+:root {
+  --background-color-link_1: #5DB7DE;
+  --background-color-link_2: #3D348B;
+  --background-color-block: #3D348B;
+  --section-text-color_1: white;
+  --section-text-color_2: black;
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: PTSans;
+  src: url("../fonts/PTSans-Bold.ttf");
+}
+@font-face {
+  font-style: italic;
+  font-weight: 700;
+  font-family: PTSans;
+  src: url("../fonts/PTSans-BoldItalic.ttf");
+}
+@font-face {
+  font-style: italic;
+  font-weight: 400;
+  font-family: PTSans;
+  src: url("../fonts/PTSans-Italic.ttf");
+}
+@font-face {
+  font-weight: 400;
+  font-family: PTSans;
+  src: url("../fonts/PTSans-Regular.ttf");
+}
+
+body {
+  font-family: sans-serif;
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-decoration: none;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: left;
+}
+h3 {
+  text-transform: uppercase;
+  color: var(--section-text-color_1);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18.2px;
+  letter-spacing: 0.1em;
+  text-align: left;
+
+}
+a {
+  text-decoration: none;
+  color: var(--section-text-color_1);
+}
+
+
+
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  width: 75%;
+  margin: 0 auto;
+  padding: 40px 0px 40px 0px;
+}
+header > img {
+  height: min-content;
+}
+header > nav > ul> li {
+  list-style-type: none;
+  display: inline;
+}
+header > nav > ul> li > a {
+  color: var(--section-text-color_2);
+  margin-right: 30px;
+  text-decoration: none;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.search > img {
+  margin-right: 20px;
+}
+.search > input {
+  height: 24px;
+  width: 150px;
+  border: 0;
+  border-bottom: 1px solid #333;
+  opacity: 0.2;
+}
+
+main {
+  background-image: url("../img/backgr_image.png");
+  background-size: 1920px 750px;
+  width: 1920px;
+  height: 750px;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between
+
+}
+.main-servies-about {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: end;
+  align-self: center;
+  color: var(--section-text-color_1);
+}
+.main-servies-about-content {
+  margin-right: 134px;
+}
+.main-servies-about-content > h1 {
+  width: 526px;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 70px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.main-servies-about-content > p {
+  width: 322px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  margin-bottom: 30px;
+
+}
+.sostav_button {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  text-decoration: none;
+  border: none;
+  background: none;
+  color: var(--section-text-color_1);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  margin: 0;
+}
+.sostav_button > span {
+  padding-right: 15px;
+}
+.main-servies-list {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.main-servies-list-item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 306px;
+  height: 250px;
+  background-color: var(--background-color-link_1);
+  color: var(--section-text-color_1);
+
+  padding: 30px 35px 30px 35px;
+  border-radius: 20px;
+}
+.main-servies-list-item > p {
+  align-items: end;
+}
+
+
+.services {
+  width: 1920px;
+  height: 750px;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between
+}
+.services-list {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.services-list > h2 {
+
+  text-align: left;
+  margin-bottom: 30px;
+}
+.services-list-item {
+  color: var(--section-text-color_2);
+}
+.servies-list-item > span{
+  width: 250px;
+}
+.services-container-list {
+  margin: 0;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 24px;
+}
+.services-container-list-item {
+  width: 416px;
+  height: 163px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 35px;
+  flex-direction: column;
+  border-radius: 20px;
+  background: var(--purple, #3D348B);
+}
