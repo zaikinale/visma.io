@@ -72,8 +72,18 @@ h3 {
   font-size: 13px;
   font-weight: 700;
 }
+h4 {
+  margin: 0;
+  padding: 0;
+}
 p {
+  margin: 0;
+  padding: 0;
   line-height: 1.4;
+}
+button {
+  background: none;
+  border: none;
 }
 
 .block_container {
@@ -312,13 +322,86 @@ div.about-section.flex-container-column {
   font-size: 19px;
 }
 
+.news-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.news-header > h2 {
+  margin: 0;
+}
+.news-header-all-button {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.news-header-all-button > p {
+  text-transform: uppercase;
+  color: #3D348B;
+  font-weight: 700;
+}
+.news-list {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-bottom: 150px;
+}
+.news-list-item {
+  width: 306px;
+}
+.news-list-item > img {
+  margin-bottom: 20px;
+}
+.date {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.news-list-item > h4 {
+  margin-bottom: 12px;
+}
+.news-text {
+  font-size: 14px;
+}
 
+.footer-header {
+  margin: 25px 0px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.contacts {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.adress {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.phone {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
 
+}
+.email {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
 
-
-
-
-
+}
 
 
 
