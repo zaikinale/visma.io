@@ -46,6 +46,7 @@ main {
   background-image: url("../img/backgr_image.png");
 }
 footer {
+  max-height: 484px;
   background-color: #3D348B;
 }
 ul, li {
@@ -402,6 +403,52 @@ div.about-section.flex-container-column {
   gap: 20px;
 
 }
+.info-content {
+  margin: 80px 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 276px;
+  justify-content: space-between;
+
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 276px;
+}
+.info > a {
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+}
+.rules {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.rules > a {
+  opacity: 0.5;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
